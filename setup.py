@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'discum'
 DESCRIPTION = 'A Discord API Wrapper for Userbots/Selfbots written in Python.'
-URL = 'https://github.com/Merubokkusu/Discord-S.C.U.M'
+URL = 'https://github.com/signum6561/Discord-S.C.U.M'
 EMAIL = 'loser@merubokkusu.com'
 AUTHOR = 'Merubokkusu'
 REQUIRES_PYTHON = '>=2.7.0'

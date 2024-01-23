@@ -847,6 +847,10 @@ class Client:
 	def getSlashCommands(self, applicationID):
 		return imports.SlashCommands(self.discord, self.s, self.log).getSlashCommands(applicationID)
 
+	#used when searching for slash commands in a guild
+	def getGuildSlashCommands(self, guildID=None):
+		return imports.SlashCommands(self.discord, self.s, self.log).getGuildSlashCommands(guildID)
+ 
 	#trigger a slash command (running /command blah blah blah whatever)
 	def triggerSlashCommand(self, applicationID, channelID, guildID=None, data={}, nonce="calculate", sessionID="random"):
 		return imports.SlashCommands(self.discord, self.s, self.log).triggerSlashCommand(applicationID, channelID, guildID, data, nonce, sessionID)
